@@ -1,0 +1,24 @@
+{
+  "name": "gulp-cssunit-plugin",
+  "version": "0.1.0",
+  "description": "css单位转换工具",
+  "main": "index.js",
+  "repository": "https://github.com/code-chic/web.git/gulp-cssunit-plugin",
+  "author": "code-chic <codechic9501@163.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "css-tree": "^1.0.0-alpha.39",
+    "gulp-util": "^3.0.8",
+    "source-map": "^0.7.3",
+    "through2": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1"
+  }
+}

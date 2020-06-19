@@ -1,0 +1,8 @@
+# npm publish ignore items
+.vscode/
+.idea/
+node_modules/
+**/test/**
+**/__tests__/**
+*.spec.{js,tsx,ts}
+*.test.{js,tsx,ts}
